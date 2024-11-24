@@ -9,3 +9,4 @@ license = "MIT"
 [dependencies]
 anyhow = "1.0.93"
 bytes = "1.8.0"
+enum_dispatch = "0.3.13"
