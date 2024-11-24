@@ -59,8 +59,3 @@ repos:
         language: rust
         files: \.rs$
         pass_filenames: false
-      - id: generate-changelog
-        name: Generate Changelog
-        entry: bash -c 'git-cliff --config cliff.toml --output CHANGES.md'
-        language: system
-        stages: [commit-msg]
